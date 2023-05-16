@@ -1,0 +1,37 @@
+{
+  "name": "sync-timer",
+  "version": "1.0.0",
+  "description": "The same as setTimeout, but callbacks run synchronously",
+  "main": "index.js",
+  "module": "index.es6.js",
+  "esnext": "index.es6.js",
+  "jsnext:main": "index.es6.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "innetjs release",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix",
+    "release": "innetjs release -p",
+    "patch": "innetjs patch",
+    "minor": "innetjs minor",
+    "major": "innetjs major"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d8corp/sync-timer.git"
+  },
+  "keywords": [
+    "sync",
+    "timer",
+    "set-timeout",
+    "front-end"
+  ],
+  "author": "Mikhail Lysikov <d8corp@mail.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d8corp/sync-timer/issues"
+  },
+  "homepage": "https://github.com/d8corp/sync-timer"
+}
