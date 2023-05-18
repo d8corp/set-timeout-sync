@@ -35,7 +35,7 @@ const timer = new SyncTimer(() => {
   console.log('Hello World!')
 }, 1000)
 
-timer.clear()
+timer.cancel()
 ```
 
 If you try the next example, you get this logs:
